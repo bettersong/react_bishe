@@ -1,0 +1,272 @@
+#root{
+    height:100%;
+}
+ul{list-style: none;}
+.index_body{
+    height: 100%;
+    min-width:1200px;
+    padding: 15px;
+    background: url(../images/data08.png) no-repeat #061537;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.head_top{
+    position: relative;
+    background: url(../images/jcdsj_logo.png) no-repeat center center;
+    background-size: contain;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+}
+.head_top .time{
+    position: absolute;
+    top: 0;
+    color: #fff;
+    left: 350px;
+}
+.warningBox {
+    position: absolute;
+    top: 0;
+    left: 870px;
+    padding: 15px;
+}
+.warningBox ul{
+    display:flex;
+    margin:0;
+    float:left;
+}
+.warningBox span{
+    float: left;
+    line-height:20px;
+    margin-left:10px;
+    color:#fff;
+}
+.warningBox ul li{
+    width:16px;
+    height:16px;
+    background:green;
+    border-radius: 50%;
+    margin-left:5px;
+}
+.head_top span.ht_title{
+    font-size:28px;
+    background: linear-gradient(0deg, #afe2f8, #46daff);
+    background-size: cover;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.backend{
+    position: absolute;
+    right: 250px;
+    top: -15px;
+}
+.viewBox{
+    height:calc(100% - 33px);
+    padding-top:10px;
+    color:#fff;
+}
+.viewLeft,.viewRight{
+    width:25%;
+    height:100%;
+    float: left;
+}
+.viewLeft .red{
+    color: red;
+}
+.viewLeft .orange {
+    color: orange;
+}
+.viewLeft .yellow{
+    color:yellow;
+}
+.viewLeft .blue{
+    color: skyblue;
+}
+.viewLeft .green{
+    color:rgb(91, 252, 27);
+}
+.viewCenter{
+    width:48%;
+    height:100%;
+    float:left;
+    margin:0 1%;
+}
+.left_title{
+    position: relative;
+    height:35px;
+}
+.left_title::before{
+   position: absolute;
+   content: "";
+   width: 100%;
+   height: 3rem;
+   background: url(../images/animate.gif) no-repeat right top;
+   background-size: auto 100%;
+   right: -1.6rem;
+   top: -20px;
+}
+.left_title img{
+    width:100%;
+    height:15px;
+    position: absolute;
+    left:0;
+    bottom:0;
+}
+.visual_box{
+    height:33%;
+    background:rgba(0, 0, 0, 0.2);
+    padding:10px;
+    margin-bottom:10px;
+}
+.left_title span {
+    font-size:16px;
+}
+.left_main p{
+    display: flex;
+    justify-content: space-between;
+}
+.left_main span{
+    display:inline-block;
+    min-width: 60px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+}
+.left_main .stateSpan{
+    min-width:30px;
+}
+.left_main .contSpan{
+    width: 90px;
+}
+#news li span:nth-child(1){
+    width:70px;
+}
+.left_news{
+    height: 140px;
+    overflow: hidden;
+    position: relative;
+}
+.left_news ul{
+    width:100%;
+    height:auto;
+    margin:0px;
+    position: absolute;
+    top:0px;
+    /* transition:all 1s ease-in; */
+}
+.left_news li{
+    list-style: none;
+    line-height:28px;
+    padding:0 5px;
+    cursor: pointer;
+    display:flex;
+    justify-content: space-between;
+}
+.left_news li:nth-child(odd){
+    background:rgba(255,255,255,0.05)
+}
+.index_body svg {
+    margin-left: -5px;
+    width: 100%;
+    height: auto;
+}
+.last_box{
+    display: flex;
+    justify-content: space-around;
+    margin-top:50px;
+}
+.squer{
+    text-align: center;
+}
+.last_box span{
+    display: block;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    border-radius: 50%;
+}
+.last_box .yellow{
+    border:1px solid yellow;
+    color:yellow;
+}
+.yellow+p{
+    color:yellow;
+}
+.last_box .blue {
+    border: 1px solid skyblue;
+    color: skyblue;
+}
+.blue+p{
+    color:skyblue;
+}
+.last_box .red {
+    border: 1px solid salmon;
+    color: salmon;
+}
+.red+p{
+    color:salmon;
+}
+.recharts-wrapper{
+    width:100% !important;
+    height:auto !important;
+}
+.videoBox{
+    position: relative;
+    width:100%;
+    height:70%;
+    background:url('../images/ksh41.png') no-repeat;
+    background-size: 100% 100%;
+    padding:15px 0;
+}
+.videoBox .videoArea{
+    display: block;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+}
+.videoBox img{
+    position:absolute;
+    width:25px;
+    height:25px;
+}
+.videoBox .img1{
+    top:0;
+    left:0;
+}
+.videoBox .img2 {
+    top: 0;
+    right: 0;
+}
+.videoBox .img3 {
+    bottom: 0;
+    right: 0;
+}
+.videoBox .img4 {
+    bottom: 0;
+    left: 0;
+}
+.bottomBox{
+    width: 100%;
+    height: 120px;
+    background: url('../images/ksh39.png') no-repeat;
+    background-size: 100% 100%;
+    margin-top: 45px;
+    padding:30px;
+}
+.bottomBox ul{
+    display: flex;
+    justify-content: space-around;
+}
+.bottomBox ul li{
+    text-align: center;
+}
+.bottomBox ul li span{
+    display: block;
+    line-height:40px;
+}
+.recharts-legend-item svg{
+    width:30px;
+}

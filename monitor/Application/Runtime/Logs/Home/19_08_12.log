@@ -1,0 +1,472 @@
+[ 2019-08-12T00:18:33+08:00 ] ::1 /MYApp/monitor/Home/WarnningData/getDataByDateAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2019-08-12T00:20:19+08:00 ] ::1 /MyApp/monitor/Home/Video/getVideoAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `video_list` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `video_list`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2019-08-12T00:20:24+08:00 ] ::1 /MYApp/monitor/Home/WarnningData/getWarnningDataAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `warn_message` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `warn_message` ORDER BY id desc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `co2_data` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `co2_data`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pm_data` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pm_data`  [ RunTime:0.4397s ]
+SQL: SHOW COLUMNS FROM `temp_data` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `temp_data`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `humi_data` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `humi_data`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2019-08-12T00:20:41+08:00 ] ::1 /MYApp/monitor/Home/WarnningData/getWarnningDataAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+SQL: SHOW COLUMNS FROM `warn_message` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `warn_message` ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `co2_data` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `co2_data`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pm_data` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pm_data`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `temp_data` [ RunTime:0.0857s ]
+SQL: SELECT * FROM `temp_data`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `humi_data` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `humi_data`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2019-08-12T00:21:32+08:00 ] ::1 /MYApp/monitor/Home/WarnningData/getDataByDateAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2019-08-12T00:21:32+08:00 ] ::1 /MYApp/monitor/Home/Login/getUserMsgAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `user` WHERE ( username='songyao' ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2019-08-12T00:21:57+08:00 ] ::1 /MYApp/monitor/Home/Login/getUserMsgAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( username='songyao' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2019-08-12T00:21:57+08:00 ] ::1 /MYApp/monitor/Home/WarnningData/getDataByDateAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001744s ]
+
+[ 2019-08-12T00:30:24+08:00 ] ::1 /MyApp/monitor/Home/Video/getVideoAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `video_list` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `video_list`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2019-08-12T00:30:29+08:00 ] ::1 /MYApp/monitor/Home/WarnningData/getWarnningDataAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `warn_message` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `warn_message` ORDER BY id desc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `co2_data` [ RunTime:0.0880s ]
+SQL: SELECT * FROM `co2_data`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pm_data` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pm_data`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `temp_data` [ RunTime:0.1653s ]
+SQL: SELECT * FROM `temp_data`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `humi_data` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `humi_data`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2019-08-12T00:30:33+08:00 ] ::1 /MYApp/monitor/Home/WarnningData/getWarnningDataAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `warn_message` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `warn_message` ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `co2_data` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `co2_data`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pm_data` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pm_data`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `temp_data` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `temp_data`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `humi_data` [ RunTime:0.0309s ]
+SQL: SELECT * FROM `humi_data`  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001791s ]
+
+[ 2019-08-12T00:30:48+08:00 ] ::1 /MYApp/monitor/Home/Link/getLinkDataAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `link_data` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `link_data`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009272s ]
+
+[ 2019-08-12T00:30:59+08:00 ] ::1 /MYApp/monitor/Home/Login/getUserMsgAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( username='songyao' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2019-08-12T00:31:46+08:00 ] ::1 /MYApp/monitor/Home/WarnningData/getDataByDateAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2019-08-12T09:13:17+08:00 ] ::1 /MYApp/monitor/Home/WarnningData/getWarnningDataAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.058804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.056010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.056081s ]
+SQL: SHOW COLUMNS FROM `warn_message` [ RunTime:0.9001s ]
+SQL: SELECT * FROM `warn_message` ORDER BY id desc  [ RunTime:0.1256s ]
+SQL: SHOW COLUMNS FROM `co2_data` [ RunTime:0.2415s ]
+SQL: SELECT * FROM `co2_data`  [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `pm_data` [ RunTime:0.0911s ]
+SQL: SELECT * FROM `pm_data`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `temp_data` [ RunTime:0.1171s ]
+SQL: SELECT * FROM `temp_data`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `humi_data` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `humi_data`  [ RunTime:0.0145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.038764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.038841s ]
+
+[ 2019-08-12T09:42:08+08:00 ] ::1 /MyApp/monitor/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1778s ]
+SQL: SELECT * FROM `user` WHERE ( username='songyao' AND password = '123456' ) LIMIT 1   [ RunTime:0.2106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2019-08-12T09:42:09+08:00 ] ::1 /MYApp/monitor/Home/WarnningData/getWarnningDataAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `warn_message` [ RunTime:0.1418s ]
+SQL: SELECT * FROM `warn_message` ORDER BY id desc  [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `co2_data` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `co2_data`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pm_data` [ RunTime:0.0678s ]
+SQL: SELECT * FROM `pm_data`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `temp_data` [ RunTime:0.0427s ]
+SQL: SELECT * FROM `temp_data`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `humi_data` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `humi_data`  [ RunTime:0.0133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2019-08-12T09:42:16+08:00 ] ::1 /MYApp/monitor/Home/WarnningData/getDataByDateAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2019-08-12T09:42:16+08:00 ] ::1 /MYApp/monitor/Home/Login/getUserMsgAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002252s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.2834s ]
+SQL: SELECT * FROM `user` WHERE ( username='songyao' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001453s ]
+
+[ 2019-08-12T09:42:20+08:00 ] ::1 /MyApp/monitor/Home/Video/getVideoAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `video_list` [ RunTime:0.3300s ]
+SQL: SELECT * FROM `video_list`  [ RunTime:0.0269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2019-08-12T09:42:28+08:00 ] ::1 /MYApp/monitor/Home/Link/getLinkDataAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `link_data` [ RunTime:0.1127s ]
+SQL: SELECT * FROM `link_data`  [ RunTime:0.0487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2019-08-12T09:42:36+08:00 ] ::1 /MYApp/monitor/Home/Link/getLinkDataAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `link_data` [ RunTime:0.1242s ]
+SQL: SELECT * FROM `link_data`  [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003975s ]
+
+[ 2019-08-12T09:57:32+08:00 ] ::1 /MYApp/monitor/Home/WarnningData/getWarnningDataAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `warn_message` [ RunTime:0.1891s ]
+SQL: SELECT * FROM `warn_message` ORDER BY id desc  [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `co2_data` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `co2_data`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pm_data` [ RunTime:0.0502s ]
+SQL: SELECT * FROM `pm_data`  [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `temp_data` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `temp_data`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `humi_data` [ RunTime:0.0415s ]
+SQL: SELECT * FROM `humi_data`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2019-08-12T09:57:36+08:00 ] ::1 /MyApp/monitor/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1012s ]
+SQL: SELECT * FROM `user` WHERE ( username='songyao' AND password = '123456' ) LIMIT 1   [ RunTime:0.0151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2019-08-12T09:57:36+08:00 ] ::1 /MYApp/monitor/Home/WarnningData/getWarnningDataAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `warn_message` [ RunTime:0.0829s ]
+SQL: SELECT * FROM `warn_message` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `co2_data` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `co2_data`  [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `pm_data` [ RunTime:0.0423s ]
+SQL: SELECT * FROM `pm_data`  [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `temp_data` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `temp_data`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `humi_data` [ RunTime:0.0348s ]
+SQL: SELECT * FROM `humi_data`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2019-08-12T09:57:40+08:00 ] ::1 /MYApp/monitor/Home/WarnningData/getDataByDateAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001867s ]
+
+[ 2019-08-12T09:57:40+08:00 ] ::1 /MYApp/monitor/Home/Login/getUserMsgAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0502s ]
+SQL: SELECT * FROM `user` WHERE ( username='songyao' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001338s ]
+
+[ 2019-08-12T09:57:42+08:00 ] ::1 /MYApp/monitor/Home/WarnningData/getWarnningDataAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `warn_message` [ RunTime:0.1002s ]
+SQL: SELECT * FROM `warn_message` ORDER BY id desc  [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `co2_data` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `co2_data`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pm_data` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pm_data`  [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `temp_data` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `temp_data`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `humi_data` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `humi_data`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2019-08-12T09:57:46+08:00 ] ::1 /MYApp/monitor/Home/WarnningData/getDataByDateAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2019-08-12T09:57:46+08:00 ] ::1 /MYApp/monitor/Home/Login/getUserMsgAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003268s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0542s ]
+SQL: SELECT * FROM `user` WHERE ( username='songyao' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2019-08-12T09:57:58+08:00 ] ::1 /MYApp/monitor/Home/Login/getUserMsgAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1906s ]
+SQL: SELECT * FROM `user` WHERE ( username='songyao' ) LIMIT 1   [ RunTime:0.0362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2019-08-12T09:59:07+08:00 ] ::1 /MYApp/monitor/Home/WarnningData/getDataByDateAPI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+

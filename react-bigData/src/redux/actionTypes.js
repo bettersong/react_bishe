@@ -1,0 +1,8 @@
+export const CHANGE_INPUT = 'changeInput'
+export const USERNAME_CHANGE = 'usernameChange'
+export const PASSWORD_CHANGE = 'passwordChange'
+export const GET_ALL_DATA = 'getAllData'
+export const CHANGE_INDEX_FLAG = 'changeIndexFlag'
+export const BAND_DELETE = 'bandDelete'
+export const USER_INFO = 'userInfo'
+export const LINK_DATA = 'linkData'

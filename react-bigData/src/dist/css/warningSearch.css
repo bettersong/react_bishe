@@ -1,0 +1,58 @@
+.ws_head{
+    width:100%;
+}
+.ws_head span{
+    vertical-align: middle;
+}
+.ws_head .ws_search{
+    width:60%;
+    vertical-align: middle;
+    margin:0 auto;
+}
+.ws_search2{
+    width:80%;
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+}
+.ws_head input{
+    background:rgba(0,0,0,0.2);
+    border:1px solid rgba(255,255,255,0.2);
+    color:#fff;
+}
+.ws_head .ant-select-selection{
+    background:rgba(0,0,0,0.2);
+    border:1px solid rgba(255,255,255,0.2);
+    color:#fff;
+}
+.ws_head i{
+    color:#fff;
+}
+.ws_title{
+    width:100%;
+    margin-top:20px;
+    padding:5px;
+    border-radius: 3px;
+    background:rgba(0,0,0,0.2);
+}
+.ws_dataTotal{
+    float:right;
+    line-height:30px;
+    color:#fff;
+}
+.ws_table{
+    margin-top:20px;
+}
+.ant-table-thead>tr>th,
+.ant-table-tbody>tr:hover:not(.ant-table-expanded-row)>td {
+    background:rgba(0,0,0,0.4);
+}
+.ant-table-thead>tr>th,
+.ant-table-tbody>tr>td{
+    color:#fff;
+    padding:10px;
+}
+.ant-table-tbody>tr>td span{
+    cursor: pointer;
+}
