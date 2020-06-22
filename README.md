@@ -3,7 +3,7 @@
   
      - 系统：MacOS
      - 开发工具：VSCode
-     - 技术要求：React、Redux、antd、Redux-thunk、Axios、ThinkPHP、MySql
+     - 技术要求：React、React-router、Redux、antd、Redux-thunk、Axios、ThinkPHP、MySql
      - 设计步骤：分析需求，规划模块，页面设计，后台实现，前后台对接，测试
      - 设计成果：完成基于React全家桶的智能数据监控系统的设计与实现，完成毕业论文
      
